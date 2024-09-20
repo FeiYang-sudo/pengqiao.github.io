@@ -220,3 +220,20 @@ document.getElementById('postForm').addEventListener('submit', function(event) {
 
     
 }
+document.getElementById('postForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    var title = document.getElementById('title').value;
+    var content = document.getElementById('content').value;
+
+    var postContent = '标题：' + title + '\n内容：' + content + '\n发布人：游客\n发布时间：' + new Date().toISOString().slice(0, 10).replace('T', ' ') + '\n\n';
+
+    var blob = new Blob([postContent], { type: 'text/plain;charset=utf-8' });
+    var link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'post.txt';
+    link.click();
+
+    document.getElementById('postForm').reset();
+});
+
