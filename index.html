@@ -1,54 +1,38 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="msvalidate.01" content="8D7E20EA455412670D3ECC7B72257084" />
-    <title>网站正在更新</title>
+    <title>精美跳转页面</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
             text-align: center;
-            background-color: #fff;
+            background-color: #f4f4f4;
+            margin: 0;
             padding: 50px;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
             font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
         }
-        .spinner {
-            margin: 20px auto;
-            width: 50px;
-            height: 50px;
-            border: 5px solid #f3f3f3;
-            border-top: 5px solid #3498db;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>网站正在更新</h1>
-        <p>我们正在进行一段精心策划的升级，以便为您提供更好的体验。感谢您的耐心等待，敬请期待全新的面貌！<br>预计更新完成：2025.2.14 </p>
-        <div class="spinner"></div>
-    </div>
+    <h1>欢迎来到精美跳转页面</h1>
+    <p>点击下面的按钮跳转到指定网站：</p>
+    <a href="https://lpvhttsl.ap-southeast-1.clawcloudrun.com/%e5%bd%ad%e6%a1%a5%e4%ba%8c%e5%88%9d%e4%b8%ad/" class="button">跳转到网站</a>
 </body>
 </html>
