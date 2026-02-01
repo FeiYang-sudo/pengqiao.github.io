@@ -3,9 +3,7 @@
 河南省南阳市邓州市彭桥镇第二初级中学
 学生自制网站
 2025年停止维护
-
-
-<img src="https://feiyang-sudo.github.io/pengqiao.github.io/logo.png alt="校徽" width="500">
+<img src="./logo.png" width="600">
 ## ✨ 特性
 
 - 特性1
