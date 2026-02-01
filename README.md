@@ -4,12 +4,9 @@
 学生自制网站
 2025年停止维护
 <img src="./logo.png" width="300">
-## ✨ 特性
-
-- 特性1
-- 特性2
-- ...
-
-作者联系方式
+## ✨ 往期照片
+<img src="./.png" width="600">
+<img src="./.png" width="600">
+## 作者联系方式
 QQ：3624230684
 email:tim-feiyang@outlook.com
