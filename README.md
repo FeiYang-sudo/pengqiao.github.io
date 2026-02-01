@@ -5,7 +5,7 @@
 2025年停止维护
 
 
-![项目截图](https://xxxx.png)
+![校徽](https://feiyang-sudo.github.io/pengqiao.github.io/logo.png)
 
 ## ✨ 特性
 
